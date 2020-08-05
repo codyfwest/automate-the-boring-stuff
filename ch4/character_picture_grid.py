@@ -22,3 +22,11 @@ for i in range(len(grid) - 1):
     y += 1
     if y == 6:
         break
+
+'''
+Simpler Solution
+for x in range(len(grid[0])):
+    for y in range(len(grid)):
+        print(grid[y][x],end='')
+    print()
+'''
